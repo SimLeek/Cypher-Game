@@ -1,0 +1,149 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.strangecreation.sim.ciphergame.level_one">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:id="@+id/imageView2"
+            android:src="@drawable/temp_lvl1_image1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Ancient Mesopotamia, you can’t get much older than that."
+            android:id="@+id/textView3"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="It turns out a few of the ancient Mesopotamian people encrypted their writing. Even back then, they had important information they wanted to keep secret."
+            android:id="@+id/textView4"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Unfortunately, that makes things harder for modern translators too. Even after translating the text into modern phonetics, it still comes out horribly mangled:"
+            android:id="@+id/textView5"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:id="@+id/imageView3"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:src="@drawable/temp_lvl1_image2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Transcribed:"
+            android:id="@+id/textView6"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Vyxrt cxypl txlxc kcvzb tcxzs trqct tdbwq sjzgy qltjp ltwtj ghttd ltvtr svzdc qttjz gxfft htrxd sthvt vrttx btdjs plvct dbwth tktyv tdjff trtzt ltzgt hs"
+            android:id="@+id/textView7"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Why are there so many X’s and T’s here? It’s almost as if someone replaced all of the vowels with lesser used consonants."
+            android:id="@+id/textView8"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Wait a minute..."
+            android:id="@+id/textView8"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Normally the most used letters are e, followed by t, a, o, i, and n. Here t is unusually frequent, showing up more than twice as much as any other letter, and x, v, z, and j show up quite a lot despite them being some of the least common letters."
+            android:id="@+id/textView9"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Maybe if you swap out a few of those letters, you can see what they were trying to hide."
+            android:id="@+id/textView10"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:id="@+id/editText"
+            android:text="Vyxrt cxypl txlxc kcvzb tcxzs trqct tdbwq sjzgy qltjp ltwtj ghttd ltvtr svzdc qttjz gxfft htrxd sthvt vrttx btdjs plvct dbwth tktyv tdjff trtzt ltzgt hs"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Translate"
+            android:id="@+id/button2"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="20sp"
+            android:layout_margin="10dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text=""
+            android:id="@+id/textViewWrong"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+</ScrollView>

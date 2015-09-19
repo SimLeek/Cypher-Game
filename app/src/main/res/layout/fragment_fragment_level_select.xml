@@ -1,0 +1,24 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/temp_cipher2"
+    tools:context="com.strangecreation.sim.ciphergame.fragment_level_select">
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="5">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Level 1"
+                android:id="@+id/button"
+                android:background="@drawable/temp_cipher"
+                android:layout_row="1"
+                android:layout_column="1" />
+
+        </GridLayout>
+
+</ScrollView>
